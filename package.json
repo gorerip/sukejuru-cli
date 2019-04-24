@@ -1,0 +1,41 @@
+{
+  "name": "sukejuru",
+  "description": "fetch broadcast schedule from MAL",
+  "version": "1.0.0",
+  "author": "@weeaboo",
+  "bin": {
+    "sukejuru": "./bin/run"
+  },
+  "bugs": "https://github.com/weeaboo/sukejuru-cli/issues",
+  "dependencies": {
+    "@oclif/command": "^1.5.13",
+    "@oclif/config": "^1.12.12",
+    "@oclif/plugin-help": "^2.1.6",
+    "jikanjs": "^0.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-oclif": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://sukejuru-cli.gore.rip",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "sukejuru"
+  },
+  "repository": "weeaboo/sukejuru-cli",
+  "scripts": {
+    "posttest": "eslint .",
+    "test": "echo NO TESTS"
+  }
+}
