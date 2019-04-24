@@ -1,5 +1,5 @@
 ### sukejuru-cli
-easy to use CLI interface for sukejuru
+easy to use command line interface for sukejuru
 
 `npm i sukejuru`
 
