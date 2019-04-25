@@ -1,5 +1,6 @@
 ### sukejuru-cli
-easy to use command line interface for sukejuru
+easy to use command line interface for sukejuru      
+uses jikanjs wrapper for jikan.moe
 
 `npm i sukejuru`
 
